@@ -13,11 +13,13 @@ The script contains 2 parts
  - Main.tf: This is the core script which automate the provising of above G42 CLoud Infra structure
 
 
-How to run the script ?
+How to run the terraform script ?
 
-1. Terraform installation - this can be done on local laptop or on an ECS
-2. Copy the script to the terrafrom working directory
-3. Initialize the working directory using the command "terraform init"
-4. Verify the script using "terraform plan"
-5. Deploy the Infra using "terraform apply"
-6. To enable debug mode using the command "TF_LOG=DEBUG TF_LOG_PATH=./log terraform apply" 
+1. Terraform installation. Download terraform file from https://developer.hashicorp.com/terraform/downloads to local machine or ECS 
+2. Install terraform 
+3. 
+4. Copy the script to the terrafrom working directory
+5. Initialize the working directory using the command "terraform init"
+6. Verify the script using "terraform plan"
+7. Deploy the Infra using "terraform apply"
+8. To enable debug mode using the command "TF_LOG=DEBUG TF_LOG_PATH=./log terraform apply" 
