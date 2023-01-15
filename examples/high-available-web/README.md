@@ -8,6 +8,7 @@ This is a sample terraform script to automate following Infrastructure component
  - RDS
  - ELB
  - EIP
+
 The script contains 2 parts
  - Variable defintion: To define the varibles that will be used in the main terraform script
  - Main.tf: This is the core script which automate the provising of above G42 CLoud Infra structure
